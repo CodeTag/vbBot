@@ -1,0 +1,10 @@
+C:\Users\Julian\Documents\GitHub\vbBot\vbBot\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Julian\Documents\GitHub\vbBot\vbBot\obj\x86\Debug\vbBot.Resources.resources
+C:\Users\Julian\Documents\GitHub\vbBot\vbBot\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Julian\Documents\GitHub\vbBot\vbBot\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Julian\Documents\GitHub\vbBot\vbBot\bin\Debug\vbBot.exe
+C:\Users\Julian\Documents\GitHub\vbBot\vbBot\bin\Debug\vbBot.pdb
+C:\Users\Julian\Documents\GitHub\vbBot\vbBot\bin\Debug\vbBot.xml
+C:\Users\Julian\Documents\GitHub\vbBot\vbBot\obj\x86\Debug\vbBot.exe
+C:\Users\Julian\Documents\GitHub\vbBot\vbBot\obj\x86\Debug\vbBot.xml
+C:\Users\Julian\Documents\GitHub\vbBot\vbBot\obj\x86\Debug\vbBot.pdb
