@@ -17,8 +17,8 @@ Class Bot
         For i As Integer = 0 To rows.Length - 1
             map(i) = Regex.Split(rows(i), ",")
         Next
-        Dim pos As Integer = mapa.IndexOf(Me.letter) \ 2
-        Me.y = pos \ rows.Length
+        Dim pos As Integer = mapa.IndexOf(Me.letter) / 2
+        Me.y = pos / rows.Length
         Me.x = pos Mod rows.Length
     End Sub
 

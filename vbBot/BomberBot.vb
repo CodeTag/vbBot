@@ -19,12 +19,12 @@ Class BomberBot
         End Try
     End Sub
 
-    Private Sub conectar(ByVal user As [String], ByVal token As [String])
+    Private Sub conectar(ByVal user As String, ByVal token As String)
         socketCliente = New Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp)
         socketCliente.Connect("localhost", 5000)
 
         socketCliente.Receive(inFromServer)
-        Dim bienvenida As [String] = Encoding.UTF8.GetString(inFromServer)
+        Dim bienvenida As String = Encoding.UTF8.GetString(inFromServer)
         Console.WriteLine(bienvenida)
 
         Dim msg As Byte() = System.Text.Encoding.UTF8.GetBytes(Convert.ToString(user) & "," & Convert.ToString(token))
@@ -39,8 +39,8 @@ Class BomberBot
             Console.WriteLine("turno")
 
             socketCliente.Receive(response)
-            Dim serverMessage As [String] = Encoding.UTF8.GetString(response)
-            Console.WriteLine(serverMessage)
+            Dim serverMessage As String = Encoding.UTF8.GetString(response)
+
             Dim message As String() = Regex.Split(serverMessage, ";")
 
             If message.Length = 0 Then
