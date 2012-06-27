@@ -21,7 +21,7 @@ Class BomberBot
 
     Private Sub conectar(ByVal user As String, ByVal token As String)
         socketCliente = New Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp)
-        socketCliente.Connect("localhost", 5000)
+        socketCliente.Connect("bomberbot.com", 5000)
 
         socketCliente.Receive(inFromServer)
         Dim bienvenida As String = Encoding.UTF8.GetString(inFromServer)
